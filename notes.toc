@@ -1,0 +1,26 @@
+\babel@toc {british}{}\relax 
+\contentsline {section}{\numberline {1}Affine}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Introduction}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Irreducibles}{2}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}Regular functions}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Locally defined regular functions}{4}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Rational functions and rational maps}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Hypersurfaces and birational equivalence}{8}{subsubsection.1.2.3}%
+\contentsline {section}{\numberline {2}Projective}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Topology on $\mathbb {P}^n$}{9}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Homogenisation}{11}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Regular maps between projective varieties}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Linear spaces in $\mathbb {P}^n$}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Products of quasiprojective varieties}{15}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Completeness}{16}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Dimension}{18}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Geometric definition}{18}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Algebraic definition}{19}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Dimension and intersection}{20}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Topological definition}{24}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Fibre theorem}{25}{subsubsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.7}Parameter spaces}{28}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Intersection of hypersurfaces}{28}{subsubsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.8}Tangent space and smoothness (mastery material)}{29}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Tangent spaces with coordinates}{29}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Singular points}{30}{subsubsection.2.8.2}%
