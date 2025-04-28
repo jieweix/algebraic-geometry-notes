@@ -335,7 +335,7 @@ For $V\subset\A_k^n,W\subset\A_k^m$, a map $f:V\rightarrow W$ is \textit{regular
 \end{defn}
 
 \begin{example}
-For $m\leq n$ and $V\subset\A_k^n$, the projection map $\pi:V\rightarrow\A_k^n:(x_1,\ldots,x_m)\mapsto (x_1,\ldots,x_n)$ is regular.
+For $m\geq n$ and $V\subset\A_k^m$, the projection map $\pi:V\rightarrow\A_k^n:(x_1,\ldots,x_m)\mapsto (x_1,\ldots,x_n)$ is regular.
 
 A regular function defined before is equivalent to a regular map $V\rightarrow\A_k^1$.
 
@@ -1095,7 +1095,7 @@ A \textit{linear subspace} of $\p^n$ is a closed subset defined by any set of ho
 \end{defn}
 
 \begin{example}
-Hypersurfaces, $\p^n$ itself, $\varphi=\left\{[x_0:\cdots:x_n]:x_0=\cdots=x_n=0\right\}$,
+Hypersurfaces, $\p^n$ itself, $\varnothing=\left\{[x_0:\cdots:x_n]:x_0=\cdots=x_n=0\right\}$,
 
 $\{x\}=\{[y_0:\cdots:y_n]\in\p^n:[y_0:\cdots:y_n]=[x_0:\cdots:x_n]\}=\{[y_0:\cdots:y_n]\in\p^n:y_ix_j-y_jx_i=0 \ \forall i,j\}$.
 \end{example}
@@ -1690,7 +1690,7 @@ By replacing $V,W$ by projective closure, we can assume they are projective. Con
 \item Explicitly, we have the projection map $\pi:V\dashrightarrow\p^2:[w:x:y:z]\mapsto[w:x:y]$ with inverse $\psi:\p^2\dashrightarrow V:[w:x:y]\mapsto [wy:xy:y^2:wx]$.
 \end{enumerate}
 
-We want to generalise \ref{thm:dimofintwithhp} by \textbf{Veronese embedding}. Let $d,n\in\Z^+$ and consider monomials of degree $d$ in $k[x_0,\ldots,x_n]$. In total there are $\binom{n+d}{d}$ of such monomials. Let $N=\binom{n+d}{d}-1$. Define the Varonese embedding
+We want to generalise \ref{thm:dimofintwithhp} by \textbf{Veronese embedding}. Let $d,n\in\Z^+$ and consider monomials of degree $d$ in $k[x_0,\ldots,x_n]$. In total there are $\binom{n+d}{d}$ of such monomials. Let $N=\binom{n+d}{d}-1$. Define the Veronese embedding
 \[
 \nu_{n,d}:\p^n\rightarrow\p^N:[x_0:\cdots:x_n]\mapsto \left[\text{all monomials of degree }d\text{ in }x_0,\ldots,x_n\right]
 \]
@@ -1756,7 +1756,7 @@ Let $V,W$ be irreducible and quasiprojective and $f:V\rightarrow W$ dominant and
 \begin{enumerate}
 \item Cover $W$ with affine open subsets $U_i$ and $f^{-1}(U_i)$ with $U_{ij}'$. Then $f_{ij}:U_{ij}'\rightarrow U_i$ is dominant, so we can assume $V,W$ to be affine. Now $f$ corresponds to $f^\ast:k[W]\rightarrow k[V]$, which by \ref{defn:isoembdomin} is injective. Let $f_1,\ldots,f_n\in k[W]$ be a transcendence basis of $k(W)$ and consider $g_1,\ldots,g_m\in k[V]$ such that $f_1,\ldots,f_n,g_1,\ldots,g_m$ is a transcendence basis of $k(V)$. Then $\dim W=n$ and $\dim V=n+m$.
 
-Recall Nullstellensatz and \ref{example:ringofregfunc} and see that a point $u\in W$ corresponds to a maximal ideal $\m_u\subsetneq k[W]\hookrightarrow k[V]$ and $k[f^{-1}(u)]=k[V]/\m_u$. Now $g_1,\ldots,g_m\in k[V]$ are algebraically independent over $k[W]$, hence gives $m$ algebraically independent elements of a prime ideal $I\subset k[V]/\m_u=k[f^{-1}(u)]$ over $k[W]/\m_u=k$, so every irreducible component of $f^{-1}(u)$ has degree at least $m=\dim W-\dim V$.
+Recall Nullstellensatz and \ref{example:ringofregfunc} and see that a point $u\in W$ corresponds to a maximal ideal $\m_u\subsetneq k[W]\hookrightarrow k[V]$ and $k[f^{-1}(u)]=k[V]/\m_u$. Now $g_1,\ldots,g_m\in k[V]$ are algebraically independent over $k[W]$, hence gives $m$ algebraically independent elements of a prime ideal $I\subset k[V]/\m_u=k[f^{-1}(u)]$ over $k[W]/\m_u=k$, so every irreducible component of $f^{-1}(u)$ has degree at least $m=\dim V-\dim W$.
 \item Consider $h_1,\ldots,h_r\in k[V]$ such that $f_1,\ldots,f_n,g_1,\ldots,g_m,h_1,\ldots,h_r$ generate $k[V]$. By construction $h_i$'s are algebraic in $f_1,\ldots,f_n,g_1,\ldots,g_m$, i.e. for each $h_i$ we can take $F_i\in k[f_1,\ldots,f_n,g_1,\ldots,g_m][x]$ such that $F_i(h_i)=0$. In particular, write $F_i(h_i)=c_dh_i^d+c_{d-1}h_i^{d-1}+\cdots+c_0$ where $c_j\in k[f_1,\ldots,f_n,g_1,\ldots,g_m]$ and $c_d\neq 0$. Consider $c_d\in k[g_1,\ldots,g_m][f_1,\ldots,f_n]$ and let $U_i=\{u\in W:c_d(f_1(u),\ldots,f_n(u))\neq 0\}$ and $U=\bigcap_{i=1}^rU_i$. Then $u\in U$ means $h_i$'s are algebraic over $g_1,\ldots,g_m$ in $k[f^{-1}(u)]$, so combining with part 1 we have that $g_1,\ldots,g_m$ is a transcendence basis of $k(V')$ where $V'$ is an irreducible component of $f^{-1}(u)$, i.e. every irreducible component of $f^{-1}(u)$ has dimension $m$. It just remains to see that $U$ is open since it's defined by the non-vanishing of a polynomial.
 \end{enumerate}
 \end{proof}
