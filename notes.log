@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.4.15)  29 APR 2025 00:23
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.4.15)  30 APR 2025 10:40
  system commands enabled.
 **notes.tex
 (./notes.tex
@@ -1891,7 +1891,7 @@ ic/cm-super/sfbmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/x
 ypic/xybsql10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/xypic/x
 yeuat10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/xypic/xyeubt1
 0.pfb>
-Output written on notes.pdf (33 pages, 608503 bytes).
+Output written on notes.pdf (33 pages, 608526 bytes).
 
 PDF statistics: 718 PDF objects out of 1000 (max. 8388607)
  657 compressed objects within 7 object streams
